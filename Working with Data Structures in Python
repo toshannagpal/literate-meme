@@ -1,0 +1,22 @@
+E = {0,2,4,6,8}
+N = {1,2,3,4,5}
+D = E.intersection(N)
+print (D)
+
+
+E = {0,2,4,6,8}
+N = {1,2,3,4,5}
+D = E.union(N)
+print (D)
+
+
+E = {0,2,4,6,8}
+N = {1,2,3,4,5}
+D = E.difference(N)
+print (D)
+
+
+E = {0,2,4,6,8}
+N = {1,2,3,4,5}
+D = E.symmetric_difference(N)
+print (D)
